@@ -14,8 +14,6 @@ namespace GuessTheNumber
         public const string SaveDirectory = "Saves";
         public static readonly string SaveFilePath = Path.Combine(SaveDirectory, $"save.json");
 
-       
-
         public string SaveList()
         {
             Console.WriteLine("Avaliable saves: ");
